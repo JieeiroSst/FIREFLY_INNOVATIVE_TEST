@@ -6,7 +6,7 @@ const createUser = async (firstname, lastname, age) => {
 
     return user;
   } catch (error) {
-    return error.message;
+    return error;
   }
 };
 
@@ -16,7 +16,7 @@ const getUserById = async (id) => {
 
     return user;
   } catch (error) {
-    return error.message;
+    return error;
   }
 };
 
@@ -26,7 +26,7 @@ const serachUser = async (name) => {
 
     return user;
   } catch (error) {
-    return error.message;
+    return error;
   }
 };
 
@@ -36,7 +36,7 @@ const updateUser = async (id, entity) => {
 
     return user;
   } catch (error) {
-    return error.message;
+    return error;
   }
 };
 
@@ -46,7 +46,7 @@ const deleteUser = async (id) => {
 
     return user;
   } catch (error) {
-    return error.message;
+    return error;
   }
 };
 
